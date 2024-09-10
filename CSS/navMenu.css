@@ -1,0 +1,127 @@
+/* ===============================
+   Navbar Styling
+================================ */
+nav {
+    width: 100%;
+    padding: 10px; /* Reduced padding */
+    /* background: #303030; */
+}
+
+ul.menuItems {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menuItems li {
+    margin: 0 15px; /* Reduced margin */
+}
+
+ul.menuItems li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 15px; /* Smaller font size */
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+ul.menuItems li a::before {
+    content: attr(data-item);
+    color: #ffcc00;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.5s ease-in-out;
+}
+
+ul.menuItems li a:hover::before {
+    width: 100%;
+}
+
+ul.menuItems li a:hover {
+    color: #ffcc00;
+}
+
+/* ===============================
+   Section Styling for IDs
+================================ */
+#main-t,
+#piracy-guides,
+#proxy-addresses,
+#special-resources,
+#secure-browsing,
+#security-tools,
+#movies-series,
+#matko-favorites {
+    padding: 30px; /* Reduced padding */
+    text-align: center;
+    margin: 20px 0;
+    color: #ffcc00;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+/* #main-t:hover,
+#piracy-guides:hover,
+#proxy-addresses:hover,
+#special-resources:hover,
+#secure-browsing:hover,
+#security-tools:hover,
+#movies-series:hover,
+#matko-favorites:hover {
+    
+} */
+
+/* ===============================
+   Responsive Styling
+================================ */
+@media (max-width: 768px) {
+    ul.menuItems {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul.menuItems li {
+        margin: 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    ul.menuItems li a {
+        font-size: 16px; /* Further reduced font size for smaller screens */
+    }
+
+    #main-t,
+    #piracy-guides,
+    #proxy-addresses,
+    #special-resources,
+    #secure-browsing,
+    #security-tools,
+    #movies-series,
+    #matko-favorites {
+        padding: 20px; /* Further reduced padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    ul.menuItems li a {
+        font-size: 14px; /* Even smaller font size for very small screens */
+    }
+
+    #main-t,
+    #piracy-guides,
+    #proxy-addresses,
+    #special-resources,
+    #secure-browsing,
+    #security-tools,
+    #movies-series,
+    #matko-favorites {
+        padding: 15px; /* Further reduced padding */
+    }
+}

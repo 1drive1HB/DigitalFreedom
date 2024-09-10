@@ -1,0 +1,34 @@
+https://fmhy.net
+
+Here's a table with the category, name, and full URL for each link:
+
+| **Category**       | **Name**                | **Full URL**                                               |
+|--------------------|-------------------------|------------------------------------------------------------|
+| **Beginners Guide**| Beginners Guide         | [https://fmhy.net/beginners-guide](https://fmhy.net/beginners-guide) |
+| **Posts**          | Posts                   | [https://fmhy.net/posts](https://fmhy.net/posts)          |
+| **Contribute**     | Contribute              | [https://fmhy.net/other/contributing](https://fmhy.net/other/contributing) |
+| **Wiki**           | Adblocking / Privacy    | [https://fmhy.net/adblockvpnguide](https://fmhy.net/adblockvpnguide) |
+| **Wiki**           | Artificial Intelligence | [https://fmhy.net/ai](https://fmhy.net/ai)                |
+| **Wiki**           | Movies / TV / Anime     | [https://fmhy.net/videopiracyguide](https://fmhy.net/videopiracyguide) |
+| **Wiki**           | Music / Podcasts / Radio| [https://fmhy.net/audiopiracyguide](https://fmhy.net/audiopiracyguide) |
+| **Wiki**           | Gaming / Emulation      | [https://fmhy.net/gamingpiracyguide](https://fmhy.net/gamingpiracyguide) |
+| **Wiki**           | Books / Comics / Manga  | [https://fmhy.net/readingpiracyguide](https://fmhy.net/readingpiracyguide) |
+| **Wiki**           | Downloading             | [https://fmhy.net/downloadpiracyguide](https://fmhy.net/downloadpiracyguide) |
+| **Wiki**           | Torrenting              | [https://fmhy.net/torrentpiracyguide](https://fmhy.net/torrentpiracyguide) |
+| **Wiki**           | Educational             | [https://fmhy.net/edupiracyguide](https://fmhy.net/edupiracyguide) |
+| **Wiki**           | Android / iOS           | [https://fmhy.net/android-iosguide](https://fmhy.net/android-iosguide) |
+| **Wiki**           | Linux / MacOS           | [https://fmhy.net/linuxguide](https://fmhy.net/linuxguide) |
+| **Wiki**           | Non-English             | [https://fmhy.net/non-english](https://fmhy.net/non-english) |
+| **Wiki**           | Miscellaneous           | [https://fmhy.net/miscguide](https://fmhy.net/miscguide)   |
+| **Tools**          | System Tools            | [https://fmhy.net/system-tools](https://fmhy.net/system-tools) |
+| **Tools**          | File Tools              | [https://fmhy.net/file-tools](https://fmhy.net/file-tools) |
+| **Tools**          | Internet Tools          | [https://fmhy.net/internet-tools](https://fmhy.net/internet-tools) |
+| **Tools**          | Social Media Tools      | [https://fmhy.net/social-media-tools](https://fmhy.net/social-media-tools) |
+| **Tools**          | Text Tools              | [https://fmhy.net/text-tools](https://fmhy.net/text-tools) |
+| **Tools**          | Gaming Tools            | [https://fmhy.net/gaming-tools](https://fmhy.net/gaming-tools) |
+| **Tools**          | Image Tools             | [https://fmhy.net/img-tools](https://fmhy.net/img-tools)   |
+| **Tools**          | Video Tools             | [https://fmhy.net/video-tools](https://fmhy.net/video-tools) |
+| **Tools**          | Audio Tools             | [https://fmhy.net/audiopiracyguide#audio-tools](https://fmhy.net/audiopiracyguide#audio-tools) |
+| **Tools**          | Educational Tools       | [https://fmhy.net/edupiracyguide#educational-tools](https://fmhy.net/edupiracyguide#educational-tools) |
+| **Tools**          | Development Tools       | [https://fmhy.net/devtools](https://fmhy.net/devtools)     |
+

@@ -1,0 +1,136 @@
+DigitalFreedom 
+-- main header (title) -- 
+
+-- main description -- 
+Welcome to DigitalFreedom, your one-stop hub for accessing a vast collection of resources on the web! 
+Whether you're looking for free streaming options, proxy addresses to access blocked sites, piracy guides, or special tools, we've gathered the most reliable and comprehensive links in one place. Our site is designed to help you navigate the digital world securely, with an emphasis on ease of use and access to essential online content. 
+Explore the links below and get the most out of the web with confidence!
+
+
+## **Piracy Guides and Resources**  
+This section covers multiple piracy-related guides, resources, and tools for downloading movies, shows, and more.
+
+- [FMHY Video Piracy Guide](https://fmhy.xyz/)  
+  Most Valueable Site
+  
+- [Piracy Megathread on Reddit](https://www.reddit.com/r/Piracy/wiki/megathread/?utm_medium=android_app&utm_source=share)  
+  Reddit’s curated list of piracy resources.
+  
+- [Torrent Tribe](https://torrenttribe.com/)  
+  Resource for torrents and torrenting guides.
+  
+- [Unblockit Download](https://unblockit.download/)  
+  Provides access to various unblocked streaming and torrent sites.
+
+---
+
+## **Proxy Addresses**  
+These proxy sites provide access to torrenting and streaming resources, even when they're blocked.
+
+- [FMHY Backups](https://github.com/fmhy/FMHY/wiki/Backups)  
+  A collection of backup proxy links for common piracy-related services.
+  
+- [Library Genesis](https://librarygenesis.net/)  
+  A proxy for downloading eBooks and academic papers.
+  
+- [1337x Proxy List](https://www.techworm.net/2019/06/1337x-proxy-sites-list-alternatives.html)  
+  Alternative proxy sites for the 1337x torrenting site.
+  
+- [Kickass Proxy](https://www.techworm.net/2019/06/kickass-proxy-torrent.html)  
+  Proxy sites for the famous Kickass Torrents.
+  
+- [Pirate Bay Proxy](https://www.techworm.net/2019/06/the-pirate-bay-proxy.html)  
+  List of proxies for accessing The Pirate Bay.
+  
+- [Movie Web Instances](https://erynith.github.io/movie-web-instances/)  
+  A comprehensive list of instances for watching movies online.
+
+## **Special Resources**  
+General repositories and archives for books, technical resources, and more.
+
+- [Anna's Archive](https://annas-archive.org/)  
+  Repository for books and other digital content.
+  
+- [Web Archive](https://web.archive.org/)  
+  The Internet's most comprehensive archiving tool for websites.
+  
+- [Engineering Toolbox](https://www.engineeringtoolbox.com/amp/index.html)  
+  A collection of technical and engineering resources.
+  
+- [Library Genesis](https://libgen.is/)  
+  Access to a vast collection of academic texts and publications.
+
+---
+
+## **Steps for Secure Browsing and Downloading**  
+Essential steps and online tools to ensure safety when downloading torrents and files.
+
+- [Torrent Tribe Secure Download Guide](https://torrenttribe.com/aboutme#steps)  
+  Instructions for secure torrenting.
+
+- **Online Tools**:  
+  These online tools assist in browsing securely, checking for malware, and using temporary emails:
+  - [ProxySite](https://www.proxysite.com/) – Secure proxy browsing.
+  - [VirusTotal](https://www.virustotal.com/gui/home/upload) – Scans files for malware.
+  - [URLVoid](https://www.urlvoid.com/) – Checks if URLs are safe.
+  - [ZEmail](https://zemail.me/) – Temporary email service.
+  - [ReqBin](https://reqbin.com/post-online) – Post online HTTP requests.
+  - [12ft Proxy](https://12ft.io/proxy) – Web proxy for bypassing paywalls.
+
+---
+
+## **Security and Clean-up Tools**  
+Tools to secure your Windows device and remove unwanted software.
+
+- [ProtonVPN](https://protonvpn.com/) – VPN for safe browsing.
+- [ShutUp10](https://www.oo-software.com/en/shutup10) – Privacy-focused configuration tool for Windows 10.
+- [KMS VL ALL](https://github.com/abbodi1406/KMS_VL_ALL_AIO) – Tool for managing Windows licenses.
+  
+- **Malwarebytes Premium Code**:  
+  Protects against malware with this premium tool:
+  - [Malwarebytes](https://www.malwarebytes.com/)  
+    *Malwarebytes Premium Code: aHR0cHM6Ly9yZW50cnkuY28vTUJfUHJlbWl1bQ==*
+
+---
+
+## **Movies and Series**  
+Various platforms for streaming movies and series online.
+
+- **Movies**:  
+  - [MoviesJoy](https://moviesjoy.is/) – Stream the latest movies.
+  - [FMovies](https://www1.fmovies.top/) – Another great movie streaming platform.
+  - [Braflix](https://www.braflix.ru/) – Brazilian movie streaming site.
+  
+- **Series**:  
+  - [WCO Stream](https://www.wcostream.tv/) – Platform for animated shows.
+  - [PseudoFlix](https://pseudo-flix.pro/) – Another streaming platform for TV shows.
+  - [Lonelil](https://watch.lonelil.ru/) – Great for shows like Hamilton’s Pharmacopeia and Gaia Psychedelica.
+  
+- **Anime**:  
+  - [WCO Stream](https://www.wcostream.tv) – Watch anime online.
+  - [9Animes](https://9animes.ph/) – Another platform for streaming anime.
+  - [GogoAnime](https://ww5.gogoanime2.org/) – Extensive anime catalog.
+  - [AniWave](https://www.aniwave.club/) – Alternative anime streaming site.
+
+---
+
+## **Matko's Favorites**  
+Some favorite shows, movies, and tools frequently used by Matko.
+
+- **Movies**:  
+  - [The Wolf of Wall Street](https://moviesjoy.is/watch-movie/the-wolf-of-wall-street-19543.5349085)
+  
+- **Shows**:  
+  - [Rick and Morty](https://pseudo-flix.pro/browse/rick%20and%20morty)  
+  - [Hamilton's Pharmacopeia](https://watch.lonelil.ru/show/68362)
+  - [Gaia Psychedelica](https://watch.lonelil.ru/show/93254)
+  - [How to Change Your Mind](https://watch.lonelil.ru/show/204304)
+
+- **Desktop Tools**:  
+  - [YouTube Music](https://th-ch.github.io/youtube-music/)
+
+- **Music**:  
+  - [YTMP](https://ytmp.itsvg.in/)  
+  - [YouTube Music Alternative](https://th-ch.github.io/youtube-music/)
+
+---

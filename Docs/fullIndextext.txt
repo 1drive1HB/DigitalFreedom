@@ -1,0 +1,92 @@
+### **Main Site Description**
+Welcome to **ALLonWeb**, your one-stop hub for accessing a vast collection of resources on the web! Whether you're looking for free streaming options, proxy addresses to access blocked sites, piracy guides, or special tools, we've gathered the most reliable and comprehensive links in one place. Our site is designed to help you navigate the digital world securely, with an emphasis on ease of use and access to essential online content. Explore the links below and get the most out of the web with confidence!
+
+---
+
+### **Multiple Site Links - Section Description**
+This section provides direct access to some of the largest online collections of free media and piracy-related resources. Whether you're looking for streaming guides, piracy tools, or communities discussing digital freedom, these links will connect you to valuable content to maximize your online experience.
+
+#### **Multiple Site Links**
+
+| NAME                   | URL                                                                                  | Description                                                      | IsActive |
+|------------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------|----------|
+| Video Piracy Guide      | [https://fmhy.xyz/videopiracyguide](https://fmhy.xyz/videopiracyguide)               | The largest collection of free streaming resources and piracy tools on the internet. | 1        |
+| r/Piracy Megathread     | [https://www.reddit.com/r/Piracy/wiki/megathread/?utm_medium=android_app&utm_source=share](https://www.reddit.com/r/Piracy/wiki/megathread/?utm_medium=android_app&utm_source=share) | Comprehensive resource for piracy-related information.           | 1        |
+| Torrent Tribe           | [https://torrenttribe.com/](https://torrenttribe.com/)                               | A collection of links, online tools, and information about torrenting and piracy. | 1        |
+| Unblockit               | [https://unblockit.download/](https://unblockit.download/)                           | Access your favorite blocked websites and content using proxy links. | 1        |
+
+---
+
+### **Proxy Addresses - Section Description**
+This section is dedicated to proxy addresses and mirror sites, helping you access popular websites that may be blocked or restricted in your region. By using these reliable proxies and mirror links, you can bypass restrictions and enjoy uninterrupted access to your favorite content.
+
+#### **Proxy Addresses**
+
+| NAME                                | URL                                                                                                     | Description                                                                                         | IsActive |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|----------|
+| FMHY Backup Mirrors                 | [https://github.com/fmhy/FMHY/wiki/Backups](https://github.com/fmhy/FMHY/wiki/Backups)                   | A backup list of mirrors to access freemediaheckyeah resources.                                      | 1        |
+| Library Genesis Mirror              | [https://librarygenesis.net/](https://librarygenesis.net/)                                               | Access millions of free e-books and scholarly articles through the Library Genesis mirror.           | 1        |
+| 1337x Proxy Sites                   | [https://www.techworm.net/2019/06/1337x-proxy-sites-list-alternatives.html](https://www.techworm.net/2019/06/1337x-proxy-sites-list-alternatives.html) | Proxy sites for 1337x, one of the most popular torrent platforms.                                    | 1        |
+| Kickass Proxy Sites                 | [https://www.techworm.net/2019/06/kickass-proxy-torrent.html](https://www.techworm.net/2019/06/kickass-proxy-torrent.html) | Access Kickass Torrents through these proxy links for uninterrupted torrenting.                      | 1        |
+| Pirate Bay Proxy Sites              | [https://www.techworm.net/2019/06/the-pirate-bay-proxy.html](https://www.techworm.net/2019/06/the-pirate-bay-proxy.html) | A list of working proxy sites to access The Pirate Bay, a popular torrenting platform.               | 1        |
+---
+
+### **Pinned Links - Section Description**
+Here, you'll find links to specific resources or popular streaming content. These are frequently accessed and highly requested links to anime, TV shows, and more.
+
+#### **Pinned Links**
+
+| NAME                       | URL                                                                                        | Description                                                              | IsActive |
+|----------------------------|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|----------|
+| Rick and Morty Streaming    | [https://www.wcostream.tv/anime/rick-and-morty](https://www.wcostream.tv/anime/rick-and-morty) | A direct link to stream episodes of the popular animated series, Rick and Morty. | 1        |
+
+---
+
+### **Specials - Section Description**
+This section includes special resources that cover a range of subjects from archiving websites to scientific tools. These resources are particularly valuable for researchers, engineers, and those interested in archived data.
+
+#### **Specials**
+
+| NAME                     | URL                                                                                       | Description                                                                          | IsActive |
+|--------------------------|-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------|
+| Anna’s Archive            | [https://annas-archive.org/](https://annas-archive.org/)                                   | A comprehensive archive of data, documents, and books, offering free access to millions of files. | 1        |
+| Internet Archive          | [https://web.archive.org/](https://web.archive.org/)                                       | The ultimate online library of archived web pages, allowing you to explore the web's history. | 1        |
+| Engineering Toolbox       | [https://www.engineeringtoolbox.com/amp/index.html](https://www.engineeringtoolbox.com/amp/index.html) | An essential resource for engineers, offering tools, formulas, and reference materials. | 1        |
+| Library Genesis           | [https://libgen.is/](https://libgen.is/)                                                   | One of the largest free access digital libraries, containing books, articles, and papers. | 1        |
+
+---
+
+### **Steps for Secure Browsing/Download - Section Description**
+In this section, you'll find essential steps and guides for secure online browsing and downloading. These tips will help you navigate safely, protect your privacy, and avoid potential risks when accessing content.
+
+| NAME                     | URL                                                                                        | Description                                                              | IsActive |
+|--------------------------|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|----------|
+| Secure Browsing Steps     | [https://torrenttribe.com/aboutme#steps](https://torrenttribe.com/aboutme#steps)           | A simple guide outlining steps for ensuring security while browsing or downloading online. | 1        |
+
+###############################################################################
+
+https://lucida.to/
+https://ytmp.itsvg.in/
+
+Example of One:
+<h2>Pinned Links</h2>
+            <p>Here, you'll find links to specific resources or popular streaming content. These are frequently accessed and highly requested links to anime, TV shows, and more.</p>
+            <table class="center-table">
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>URL</th>
+                        <th>Description</th>
+                        <th>Status (isActive)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rick and Morty</td>
+                        <td><a href="https://www.wcostream.tv/anime/rick-and-morty" target="_blank" rel="noopener noreferrer">https://www.wcostream.tv/anime/rick-and-morty</a></td>
+                        <td>A direct link to stream episodes of the popular animated series, Rick and Morty.</td>
+                        <td><span class="status-indicator" data-url="www.wcostream.tv">Loading...</span></td>
+                    </tr>
+                </tbody>
+            </table>
+
