@@ -39,3 +39,80 @@
     color: #ff9f51; /* Accent color for description text */
     font-size: 1.1rem; /* Adjust as needed */
 }
+
+
+/* ====================================
+   Table Styling for Movies and Series
+   ==================================== */
+
+   #movies-series table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem auto;
+    background-color: rgba(63, 92, 138, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#movies-series thead {
+    background-color: rgba(100, 108, 121, 0.55);
+}
+
+#movies-series th, #movies-series td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(100, 108, 121, 0.55);
+}
+
+#movies-series th {
+    color: #fb9039;
+    font-weight: bold;
+}
+
+#movies-series td a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#movies-series td a:hover {
+    color: #ff9039;
+    text-decoration: underline;
+}
+
+#movies-series td .status-indicator {
+    font-weight: bold;
+}
+
+#movies-series td .status-indicator.online {
+    color: #39FF14;
+}
+
+#movies-series td .status-indicator.offline {
+    color: #FF073A;
+}
+
+#movies-series td .status-indicator.loading {
+    color: #FF6F00;
+}
+
+/* Responsive adjustments for the table */
+@media (max-width: 768px) {
+    #movies-series table {
+        font-size: 0.9em;
+    }
+
+    #movies-series th, #movies-series td {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    #movies-series table {
+        font-size: 0.8em;
+    }
+
+    #movies-series th, #movies-series td {
+        padding: 0.4rem;
+    }
+}

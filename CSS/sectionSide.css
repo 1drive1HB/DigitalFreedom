@@ -1,0 +1,55 @@
+/* Container for the sections to be side by side */
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem; /* Adjust space between sections */
+}
+
+/* Styling for each section */
+.section-container .section {
+    flex: 1; /* Allow sections to grow and shrink */
+    background-color: rgba(63, 92, 138, 0.55); /* Same background as existing section styling */
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.section-container h3 {
+    color: #fb9039;
+    text-align: center;
+}
+
+/* Ensure lists inside sections are properly styled */
+.section-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-container li {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.section-container li a {
+    font-weight: bold;
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.section-container li .description {
+    font-weight: normal;
+    color: #fb9039;
+    margin-left: 10px;
+    text-align: center;
+    grid-column: 2;
+}
+
+.section-container li a:hover {
+    color: #ff9039;
+    text-decoration: underline;
+}

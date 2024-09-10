@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="/css/navMenu.css">
         <link rel="stylesheet" href="/css/main_t.css">
         <link rel="stylesheet" href="/css/bacSec.css">
+        <link rel="stylesheet" href="/css/sectionSide.css">
         <!-- <link rel="stylesheet" href="/css/responsive.css"> -->
         <!-- <link rel="stylesheet" href="/css/animate.min.css"> -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
@@ -63,7 +64,7 @@
                     <span class="status-indicator loading" data-url="https://www.reddit.com/r/Piracy/wiki/megathread/?utm_medium=android_app&utm_source=share">Loading...</span>
                 </li>
                 <li>
-                    <a href="https://torrenttribe.com/" target="_blank">Torrent Tribe</a>
+                    <a href="https://torrenttribe.com/" target="_blank" id="star">Torrent Tribe</a>
                     <div class="description">- Resource for torrents and torrenting guides.</div>
                     <span class="status-indicator loading" data-url="https://torrenttribe.com/">Loading...</span>
                 </li>
@@ -81,7 +82,7 @@
             <p>These proxy sites provide access to torrenting and streaming resources, even when they're blocked.</p>
             <ul>
                 <li>
-                    <a href="https://github.com/fmhy/FMHY/wiki/Backups" target="_blank">FMHY Backups</a>
+                    <a href="https://github.com/fmhy/FMHY/wiki/Backups" target="_blank" id="star">FMHY Backups</a>
                     <div class="description">- A collection of backup proxy links for common piracy-related services.</div>
                     <span class="status-indicator loading" data-url="https://github.com/fmhy/FMHY/wiki/Backups">Loading...</span>
                 </li>
@@ -91,7 +92,7 @@
                     <span class="status-indicator loading" data-url="https://librarygenesis.net/">Loading...</span>
                 </li>
                 <li>
-                    <a href="https://www.techworm.net/2019/06/1337x-proxy-sites-list-alternatives.html" target="_blank">1337x Proxy List</a>
+                    <a href="https://www.techworm.net/2019/06/1337x-proxy-sites-list-alternatives.html" target="_blank" id="star">1337x Proxy List</a>
                     <div class="description">- Alternative proxy sites for the 1337x torrenting site.</div>
                     <span class="status-indicator loading" data-url="https://www.techworm.net/2019/06/1337x-proxy-sites-list-alternatives.html">Loading...</span>
                 </li>
@@ -106,7 +107,7 @@
                     <span class="status-indicator loading" data-url="https://www.techworm.net/2019/06/the-pirate-bay-proxy.html">Loading...</span>
                 </li>
                 <li>
-                    <a href="https://erynith.github.io/movie-web-instances/" target="_blank">Movie Web Instances</a>
+                    <a href="https://erynith.github.io/movie-web-instances/" target="_blank" id="star">Movie Web Instances</a>
                     <div class="description">- A comprehensive list of instances for watching movies online.</div>
                     <span class="status-indicator loading" data-url="https://erynith.github.io/movie-web-instances/">Loading...</span>
                 </li>
@@ -119,22 +120,22 @@
             <p>General repositories and archives for books, technical resources, and more.</p>
             <ul>
                 <li>
-                    <a href="https://annas-archive.org/" target="_blank">Anna's Archive</a>
+                    <a href="https://annas-archive.org/" target="_blank" id="star">Anna's Archive</a>
                     <div class="description">- Repository for books and other digital content.</div>
                     <span class="status-indicator loading" data-url="https://annas-archive.org/">Loading...</span>
                 </li>
                 <li>
-                    <a href="https://web.archive.org/" target="_blank">Web Archive</a>
+                    <a href="https://web.archive.org/" target="_blank" id="star">Web Archive</a>
                     <div class="description">- The Internet's most comprehensive archiving tool for websites.</div>
                     <span class="status-indicator loading" data-url="https://web.archive.org/">Loading...</span>
                 </li>
                 <li>
-                    <a href="https://www.engineeringtoolbox.com/amp/index.html" target="_blank">Engineering Toolbox</a>
+                    <a href="https://www.engineeringtoolbox.com/amp/index.html" target="_blank" id="star">Engineering Toolbox</a>
                     <div class="description">- A collection of technical and engineering resources.</div>
                     <span class="status-indicator loading" data-url="https://www.engineeringtoolbox.com/amp/index.html">Loading...</span>
                 </li>
                 <li>
-                    <a href="https://libgen.is/" target="_blank">Library Genesis</a>
+                    <a href="https://libgen.is/" target="_blank" id="star">Library Genesis</a>
                     <div class="description">- Access to a vast collection of academic texts and publications.</div>
                     <span class="status-indicator loading" data-url="https://libgen.is/">Loading...</span>
                 </li>
@@ -152,7 +153,7 @@
                     <span class="status-indicator loading" data-url="https://www.proxysite.com/">Loading...</span>
                 </li>
                 <li>
-                    <a href="https://www.virustotal.com/gui/home/upload" target="_blank">VirusTotal</a>
+                    <a href="https://www.virustotal.com/gui/home/upload" target="_blank" id="star">VirusTotal</a>
                     <div class="description">– Scans files for malware.</div>
                     <span class="status-indicator loading" data-url="https://www.virustotal.com/gui/home/upload">Loading...</span>
                 </li>
@@ -172,7 +173,7 @@
                     <span class="status-indicator loading" data-url="https://reqbin.com/post-online">Loading...</span>
                 </li>
                 <li>
-                    <a href="https://12ft.io/proxy" target="_blank">12ft Proxy</a>
+                    <a href="https://12ft.io/proxy" target="_blank" id="star">12ft Proxy</a>
                     <div class="description">– Web proxy for bypassing paywalls.</div>
                     <span class="status-indicator loading" data-url="https://12ft.io/proxy">Loading...</span>
                 </li>
@@ -209,6 +210,74 @@
         </section>
 
         <section class="section" id="movies-series">
+            <h2>Movies and Series</h2>
+            <table id="movies-series-table">
+                <thead>
+                    <tr>
+                        <th>Link</th>
+                        <th>Status</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-url="https://moviesjoy.is/">
+                        <td><a href="#">MoviesJoy</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Movies</td>
+                    </tr>
+                    <tr data-url="https://www1.fmovies.top/">
+                        <td><a href="#">FMovies</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Movies</td>
+                    </tr>
+                    <tr data-url="https://www.braflix.ru/">
+                        <td><a href="#">Braflix</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Movies</td>
+                    </tr>
+                    <tr data-url="https://www.wcostream.tv/">
+                        <td><a href="#">WCO Stream</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Series</td>
+                    </tr>
+                    <tr data-url="https://pseudo-flix.pro/">
+                        <td><a href="#">PseudoFlix</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Series</td>
+                    </tr>
+                    <tr data-url="https://watch.lonelil.ru/">
+                        <td><a href="#">Lonelil</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Series</td>
+                    </tr>
+                    <tr data-url="https://www.wcostream.tv">
+                        <td><a href="#">WCO Stream</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Anime</td>
+                    </tr>
+                    <tr data-url="https://9animes.ph/">
+                        <td><a href="#">9Animes</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Anime</td>
+                    </tr>
+                    <tr data-url="https://ww5.gogoanime2.org/">
+                        <td><a href="#">GogoAnime</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Anime</td>
+                    </tr>
+                    <tr data-url="https://www.aniwave.club/">
+                        <td><a href="#">AniWave</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Anime</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        
+        
+
+        <!-- <section class="section" id="movies-series">
             <h2>Movies and Series</h2>
             <h3>Movies</h3>
             <p>Various platforms for streaming movies and series online.</p>
@@ -272,7 +341,7 @@
                     <span class="status-indicator loading" data-url="https://www.aniwave.club/">Loading...</span>
                 </li>
             </ul>
-        </section>
+        </section> -->
 
         <section class="section" id="matko-favorites">
             <h2>Favorites</h2>
@@ -329,12 +398,12 @@
     <footer class="">
         <div>
             <p>&copy; 2024 DigitalFreedom. All rights reserved.</p>
-            <a href="/index.html">Back To Index</a>
+            <a href="/Html/testWithoutCSS.html">Back To Index</a>
         </div>
     </footer>
 
     <!-- Custom JavaScript -->
-    <script src="/JS/ping.js"></script>
+    <!-- <script src="/JS/ping.js"></script> -->
     <script src="/JS/background.js"></script>
     <script src="/JS/jquery.js"></script>
 
