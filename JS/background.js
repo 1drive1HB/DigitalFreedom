@@ -19,3 +19,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// document.querySelectorAll('a').forEach(link => {
+//     link.addEventListener('click', function(event) {
+//         event.preventDefault(); // Prevents the default behavior
+//         window.open(this.href, '_blank'); // Opens the link in a new tab
+//     });
+// });

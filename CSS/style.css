@@ -122,7 +122,7 @@ li .description {
     font-weight: normal;
     /* color: #fb9039; */
     color: rgb(253,245,230) !important;
-    background-color: hsl(0, 23%, 24%, 00.09);;
+    background-color: hsl(0, 23%, 24%, 00.09);
     margin-left: 10px;
     text-align: center;
     grid-column: 2;
@@ -263,4 +263,6 @@ footer div {
         font-size: 0.9rem;
     }
 }
+
+
 

@@ -53,3 +53,68 @@
     color: #ff9039;
     text-decoration: underline;
 }
+
+/* Card container styling */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the card container */
+    gap: 20px;
+  }
+  
+  /* Individual card styling */
+  .card {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 155px; /* Card width */
+    height: 230px; /* Card height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Ensure content does not overflow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Space between image and text */
+  }
+  
+  /* Hover effect */
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 155px; /* Image width */
+    height: 155px; /* Image height */
+    object-fit: cover; /* Crop image to fit */
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Movie/series name styling */
+  .card h3 {
+    font-size: 1em;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 5px; /* Space between name and status */
+  }
+  
+  /* Status indicator styling */
+  .status-indicator {
+    font-size: 0.9em;
+    color: #fb9039;
+  }
+  
+  /* Responsive design */
+  @media (min-width: 768px) {
+    .card-container {
+      justify-content: space-between;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .card-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
