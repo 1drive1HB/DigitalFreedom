@@ -70,7 +70,8 @@
 .section p {
     font-weight: bold;
     text-align: center;
-    color: #fb9039;
+    /* color: #fb9039; */
+    
     font-size: 1rem;
 }
 
@@ -119,7 +120,9 @@ li a {
 
 li .description {
     font-weight: normal;
-    color: #fb9039;
+    /* color: #fb9039; */
+    color: rgb(253,245,230) !important;
+    background-color: hsl(0, 23%, 24%, 00.09);;
     margin-left: 10px;
     text-align: center;
     grid-column: 2;
