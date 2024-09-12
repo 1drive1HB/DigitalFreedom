@@ -32,3 +32,12 @@ Here's a table with the category, name, and full URL for each link:
 | **Tools**          | Educational Tools       | [https://fmhy.net/edupiracyguide#educational-tools](https://fmhy.net/edupiracyguide#educational-tools) |
 | **Tools**          | Development Tools       | [https://fmhy.net/devtools](https://fmhy.net/devtools)     |
 
+fix gaia s1 
+https://archive.org/details/Psychedelica_201810
+
+add more top movies: 
+
+add small icon in browser 
+
+add current ip check on other site + about site: 
+

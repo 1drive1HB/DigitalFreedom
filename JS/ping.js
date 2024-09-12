@@ -33,3 +33,16 @@ function Pinger_ping(ip, callback) {
     var pinger = new Pinger_ping(url, callback);
   }
   
+
+// Initialize pings for status checking
+document.addEventListener('DOMContentLoaded', function() {
+    var statusIndicators = document.querySelectorAll('.status-indicator');
+
+    statusIndicators.forEach(function(indicator) {
+        var url = indicator.getAttribute('data-url');
+        pingURL(url, function(isActive) {
+            indicator.textContent = isActive ? 'Online' : 'Offline';
+            indicator.style.color = isActive ? '#39FF14' : '#FF073A'; // Neon green for online, neon red for offline
+        });
+    });
+});
