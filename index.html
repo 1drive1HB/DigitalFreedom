@@ -1,189 +1,432 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DigitalFreedom</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <meta name="viewport" content="width=1024">
+        <meta charset="UTF-8">
+        <!-- Basic SEO and functionality -->
+        <meta name="description" content="A brief description of your page content.">
+        <meta name="author" content="Your Name or Organization">
+        <title>DigitalFreedom</title>
+        <link rel="stylesheet" href="/css/navMenu.css">
+
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/main_t.css">
+        <link rel="stylesheet" href="/css/bacSec.css">
+        <link rel="stylesheet" href="/css/sectionSide.css">
+        <!-- <link rel="stylesheet" href="/css/responsive.css"> -->
+        <!-- <link rel="stylesheet" href="/css/animate.min.css"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    </head>
 <body>
-    <div class="container">
-        <header class="main-title" id="main-t">
-            <!-- <video autoplay muted loop class="background-video">
+
+
+        <header class="section" id="main-t">
+            <video autoplay muted loop class="background-video">
                 <source src="/src/77560-563002049.mp4" type="video/mp4">
                 Your browser does not support the video tag.
-            </video> -->
+            </video>
             <div class="overlay">
-                <h1>DigitalFreedom</h1>
+                <h1>Digital Freedom</h1>
                 <br>
-                <p>Welcome to DigitalFreedom, your one-stop hub for accessing a vast collection of resources on the web! Whether you're looking for free streaming options, proxy addresses to access blocked sites, piracy guides, or special tools, we've gathered the most reliable and comprehensive links in one place. Our site is designed to help you navigate the digital world securely, with an emphasis on ease of use and access to essential online content. Explore the links below and get the most out of the web with confidence!</p>
+                <p>Welcome to DigitalFreedom, your one-stop hub for accessing a vast collection of resources on the web! Whether you're looking for free streaming options, proxy addresses to access blocked sites, piracy guides, or special tools, we've gathered the most reliable and comprehensive links in one place.</p>
+                <p>Our site is designed to help you navigate the digital world securely, with an emphasis on ease of use and access to essential online content. Explore the links below and get the most out of the web with confidence!</p>
             </div>
+    
+            <nav>
+                <ul class="menuItems">
+                    <li><a href="#main-t" data-item='Main'>Main</a></li>
+                    <li><a href="#piracy-guides" data-item='Piracy Guides'>Piracy Guides</a></li>
+                    <li><a href="#proxy-addresses" data-item='Proxy Addresses'>Proxy Addresses</a></li>
+                    <li><a href="#special-resources" data-item='Special Resources'>Special Resources</a></li>
+                    <li><a href="#secure-browsing" data-item='Secure Browsing'>Secure Browsing</a></li>
+                    <li><a href="#security-tools" data-item='Security Tools'>Security Tools</a></li>
+                    <li><a href="#movies-series" data-item='Movies & Series'>Movies & Series</a></li>
+                    <li><a href="#matko-favorites" data-item='Favorites'>Favorites</a></li>
+                </ul>
+            </nav>
         </header>
         
 
         <section class="section" id="piracy-guides">
             <h2>Piracy Guides and Resources</h2>
+            <p>This section covers multiple piracy-related guides,</p>
+            <p>resources, and tools for downloading movies, shows, and more.</p>
             <ul>
-                <li><a href="https://fmhy.xyz/" target="_blank">FMHY Video Piracy Guide</a> - Most Valuable Site <span class="status-indicator loading" data-url="https://fmhy.xyz/">Loading...</span></li>
-                <li><a href="https://www.reddit.com/r/Piracy/wiki/megathread/?utm_medium=android_app&utm_source=share" target="_blank">Piracy Megathread on Reddit</a> - Reddit’s curated list of piracy resources. <span class="status-indicator loading" data-url="https://www.reddit.com/r/Piracy/wiki/megathread/?utm_medium=android_app&utm_source=share">Loading...</span></li>
-                <li><a href="https://torrenttribe.com/" target="_blank">Torrent Tribe</a> - Resource for torrents and torrenting guides. <span class="status-indicator loading" data-url="https://torrenttribe.com/">Loading...</span></li>
-                <li><a href="https://unblockit.download/" target="_blank">Unblockit Download</a> - Provides access to various unblocked streaming and torrent sites. <span class="status-indicator loading" data-url="https://unblockit.download/">Loading...</span></li>
+                <li>
+                    <a href="https://fmhy.xyz/" target="_blank" id="star">FMHY Video Piracy Guide</a>
+                    <div class="description">- Most Valuable Site</div>
+                    <span class="status-indicator loading" data-url="https://fmhy.xyz/">Loading...</span>
+                </li>                
+                <li>
+                    <a href="https://www.reddit.com/r/Piracy/wiki/megathread/?utm_medium=android_app&utm_source=share" target="_blank">Piracy Megathread on Reddit</a>
+                    <div class="description">- Reddit’s curated list of piracy resources.</div>
+                    <span class="status-indicator loading" data-url="https://www.reddit.com/r/Piracy/wiki/megathread/?utm_medium=android_app&utm_source=share">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://torrenttribe.com/" target="_blank" id="star">Torrent Tribe</a>
+                    <div class="description">- Resource for torrents and torrenting guides.</div>
+                    <span class="status-indicator loading" data-url="https://torrenttribe.com/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://unblockit.download/" target="_blank">Unblockit Download</a>
+                    <div class="description">- Provides access to various unblocked streaming and torrent sites.</div>
+                    <span class="status-indicator loading" data-url="https://unblockit.download/">Loading...</span>
+                </li>
             </ul>
+            
         </section>
 
         <section class="section" id="proxy-addresses">
             <h2>Proxy Addresses</h2>
+            <p>These proxy sites provide access to torrenting and streaming resources, even when they're blocked.</p>
             <ul>
-                <li><a href="https://github.com/fmhy/FMHY/wiki/Backups" target="_blank">FMHY Backups</a> - A collection of backup proxy links for common piracy-related services. <span class="status-indicator loading" data-url="https://github.com/fmhy/FMHY/wiki/Backups">Loading...</span></li>
-                <li><a href="https://librarygenesis.net/" target="_blank">Library Genesis</a> - A proxy for downloading eBooks and academic papers. <span class="status-indicator loading" data-url="https://librarygenesis.net/">Loading...</span></li>
-                <li><a href="https://www.techworm.net/2019/06/1337x-proxy-sites-list-alternatives.html" target="_blank">1337x Proxy List</a> - Alternative proxy sites for the 1337x torrenting site. <span class="status-indicator loading" data-url="https://www.techworm.net/2019/06/1337x-proxy-sites-list-alternatives.html">Loading...</span></li>
-                <li><a href="https://www.techworm.net/2019/06/kickass-proxy-torrent.html" target="_blank">Kickass Proxy</a> - Proxy sites for the famous Kickass Torrents. <span class="status-indicator loading" data-url="https://www.techworm.net/2019/06/kickass-proxy-torrent.html">Loading...</span></li>
-                <li><a href="https://www.techworm.net/2019/06/the-pirate-bay-proxy.html" target="_blank">Pirate Bay Proxy</a> - List of proxies for accessing The Pirate Bay. <span class="status-indicator loading" data-url="https://www.techworm.net/2019/06/the-pirate-bay-proxy.html">Loading...</span></li>
-                <li><a href="https://erynith.github.io/movie-web-instances/" target="_blank">Movie Web Instances</a> - A comprehensive list of instances for watching movies online. <span class="status-indicator loading" data-url="https://erynith.github.io/movie-web-instances/">Loading...</span></li>
+                <li>
+                    <a href="https://github.com/fmhy/FMHY/wiki/Backups" target="_blank" id="star">FMHY Backups</a>
+                    <div class="description">- A collection of backup proxy links for common piracy-related services.</div>
+                    <span class="status-indicator loading" data-url="https://github.com/fmhy/FMHY/wiki/Backups">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://librarygenesis.net/" target="_blank">Library Genesis</a>
+                    <div class="description">- A proxy for downloading eBooks and academic papers.</div>
+                    <span class="status-indicator loading" data-url="https://librarygenesis.net/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://www.techworm.net/2019/06/1337x-proxy-sites-list-alternatives.html" target="_blank" id="star">1337x Proxy List</a>
+                    <div class="description">- Alternative proxy sites for the 1337x torrenting site.</div>
+                    <span class="status-indicator loading" data-url="https://www.techworm.net/2019/06/1337x-proxy-sites-list-alternatives.html">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://www.techworm.net/2019/06/kickass-proxy-torrent.html" target="_blank">Kickass Proxy List</a>
+                    <div class="description">- Proxy sites for the famous Kickass Torrents.</div>
+                    <span class="status-indicator loading" data-url="https://www.techworm.net/2019/06/kickass-proxy-torrent.html">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://www.techworm.net/2019/06/the-pirate-bay-proxy.html" target="_blank">Pirate Bay Proxy List</a>
+                    <div class="description">- List of proxies for accessing The Pirate Bay.</div>
+                    <span class="status-indicator loading" data-url="https://www.techworm.net/2019/06/the-pirate-bay-proxy.html">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://erynith.github.io/movie-web-instances/" target="_blank" id="star">Movie Web Instances</a>
+                    <div class="description">- A comprehensive list of instances for watching movies online.</div>
+                    <span class="status-indicator loading" data-url="https://erynith.github.io/movie-web-instances/">Loading...</span>
+                </li>
             </ul>
+            
         </section>
 
-        <section class="section" id="special-resources">
-            <h2>Special Resources</h2>
-            <ul>
-                <li><a href="https://annas-archive.org/" target="_blank">Anna's Archive</a> - Repository for books and other digital content. <span class="status-indicator loading" data-url="https://annas-archive.org/">Loading...</span></li>
-                <li><a href="https://web.archive.org/" target="_blank">Web Archive</a> - The Internet's most comprehensive archiving tool for websites. <span class="status-indicator loading" data-url="https://web.archive.org/">Loading...</span></li>
-                <li><a href="https://www.engineeringtoolbox.com/amp/index.html" target="_blank">Engineering Toolbox</a> - A collection of technical and engineering resources. <span class="status-indicator loading" data-url="https://www.engineeringtoolbox.com/amp/index.html">Loading...</span></li>
-                <li><a href="https://libgen.is/" target="_blank">Library Genesis</a> - Access to a vast collection of academic texts and publications. <span class="status-indicator loading" data-url="https://libgen.is/">Loading...</span></li>
+            <section class="section" id="special-resources">
+                <h2>Special Resources</h2>
+                <p>General repositories and archives for books, technical resources, and more.</p>
+                <ul>
+                    <li>
+                        <a href="https://annas-archive.org/" target="_blank" id="star">Anna's Archive</a>
+                        <div class="description">- Repository for books and other digital content.</div>
+                        <span class="status-indicator loading" data-url="https://annas-archive.org/">Loading...</span>
+                    </li>
+                <li>
+                    <a href="https://web.archive.org/" target="_blank" id="star">Web Archive</a>
+                    <div class="description">- The Internet's most comprehensive archiving tool for websites.</div>
+                    <span class="status-indicator loading" data-url="https://web.archive.org/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://www.engineeringtoolbox.com/amp/index.html" target="_blank" id="star">Engineering Toolbox</a>
+                    <div class="description">- A collection of technical and engineering resources.</div>
+                    <span class="status-indicator loading" data-url="https://www.engineeringtoolbox.com/amp/index.html">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://libgen.is/" target="_blank" id="star">Library Genesis</a>
+                    <div class="description">- Access to a vast collection of academic texts and publications.</div>
+                    <span class="status-indicator loading" data-url="https://libgen.is/">Loading...</span>
+                </li>
             </ul>
+            
         </section>
 
         <section class="section" id="secure-browsing">
             <h2>Steps for Secure Browsing and Downloading</h2>
+            <p>Essential steps and online tools to ensure safety when downloading torrents and files.</p>
             <ul>
-                <li><a href="https://torrenttribe.com/aboutme#steps" target="_blank">Torrent Tribe Secure Download Guide</a> - Instructions for secure torrenting. <span class="status-indicator loading" data-url="https://torrenttribe.com/aboutme#steps">Loading...</span></li>
-                <li>**Online Tools**:
-                    <ul>
-                        <li><a href="https://www.proxysite.com/" target="_blank">ProxySite</a> – Secure proxy browsing. <span class="status-indicator loading" data-url="https://www.proxysite.com/">Loading...</span></li>
-                        <li><a href="https://www.virustotal.com/gui/home/upload" target="_blank">VirusTotal</a> – Scans files for malware. <span class="status-indicator loading" data-url="https://www.virustotal.com/gui/home/upload">Loading...</span></li>
-                        <li><a href="https://www.urlvoid.com/" target="_blank">URLVoid</a> – Checks if URLs are safe. <span class="status-indicator loading" data-url="https://www.urlvoid.com/">Loading...</span></li>
-                        <li><a href="https://zemail.me/" target="_blank">ZEmail</a> – Temporary email service. <span class="status-indicator loading" data-url="https://zemail.me/">Loading...</span></li>
-                        <li><a href="https://reqbin.com/post-online" target="_blank">ReqBin</a> – Post online HTTP requests. <span class="status-indicator loading" data-url="https://reqbin.com/post-online">Loading...</span></li>
-                        <li><a href="https://12ft.io/proxy" target="_blank">12ft Proxy</a> – Web proxy for bypassing paywalls. <span class="status-indicator loading" data-url="https://12ft.io/proxy">Loading...</span></li>
-                    </ul>
+                <li>
+                    <a href="https://www.proxysite.com/" target="_blank">ProxySite</a>
+                    <div class="description">– Secure proxy browsing.</div>
+                    <span class="status-indicator loading" data-url="https://www.proxysite.com/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://www.virustotal.com/gui/home/upload" target="_blank" id="star">VirusTotal</a>
+                    <div class="description">– Scans files for malware.</div>
+                    <span class="status-indicator loading" data-url="https://www.virustotal.com/gui/home/upload">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://www.urlvoid.com/" target="_blank">URLVoid</a>
+                    <div class="description">– Checks if URLs are safe.</div>
+                    <span class="status-indicator loading" data-url="https://www.urlvoid.com/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://zemail.me/" target="_blank">ZEmail</a>
+                    <div class="description">– Temporary email service.</div>
+                    <span class="status-indicator loading" data-url="https://zemail.me/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://reqbin.com/post-online" target="_blank">ReqBin</a>
+                    <div class="description">– Post online HTTP requests.</div>
+                    <span class="status-indicator loading" data-url="https://reqbin.com/post-online">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://12ft.io/proxy" target="_blank" id="star">12ft Proxy</a>
+                    <div class="description">– Web proxy for bypassing paywalls.</div>
+                    <span class="status-indicator loading" data-url="https://12ft.io/proxy">Loading...</span>
                 </li>
             </ul>
+            
         </section>
 
         <section class="section" id="security-tools">
             <h2>Security and Clean-up Tools</h2>
+            <p>Tools to secure your Windows device and remove unwanted software.</p>
             <ul>
-                <li><a href="https://protonvpn.com/" target="_blank">ProtonVPN</a> – VPN for safe browsing. <span class="status-indicator loading" data-url="https://protonvpn.com/">Loading...</span></li>
-                <li><a href="https://www.oo-software.com/en/shutup10" target="_blank">ShutUp10</a> – Privacy-focused configuration tool for Windows 10. <span class="status-indicator loading" data-url="https://www.oo-software.com/en/shutup10">Loading...</span></li>
-                <li><a href="https://github.com/abbodi1406/KMS_VL_ALL_AIO" target="_blank">KMS VL ALL</a> – Tool for managing Windows licenses. <span class="status-indicator loading" data-url="https://github.com/abbodi1406/KMS_VL_ALL_AIO">Loading...</span></li>
-                <li><a href="https://www.malwarebytes.com/" target="_blank">Malwarebytes</a> - Protects against malware with this premium tool: <span class="status-indicator loading" data-url="https://www.malwarebytes.com/">Loading...</span></li>
-                <li><a href="https://www.malwarebytes.com/" target="_blank">Malwarebytes Premium Code</a> - *Malwarebytes Premium Code: aHR0cHM6Ly9yZW50cnkuY28vTUJfUHJlbWl1bQ==*</li>
+                <li>
+                    <a href="https://protonvpn.com/" target="_blank">ProtonVPN</a>
+                    <div class="description">– VPN for safe browsing.</div>
+                    <span class="status-indicator loading" data-url="https://protonvpn.com/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://www.oo-software.com/en/shutup10" target="_blank">ShutUp10</a>
+                    <div class="description">– Privacy-focused configuration tool for Windows 10.</div>
+                    <span class="status-indicator loading" data-url="https://www.oo-software.com/en/shutup10">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://github.com/abbodi1406/KMS_VL_ALL_AIO" target="_blank">KMS VL ALL</a>
+                    <div class="description">– Tool for managing Windows licenses.</div>
+                    <span class="status-indicator loading" data-url="https://github.com/abbodi1406/KMS_VL_ALL_AIO">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://www.malwarebytes.com/" target="_blank">Malwarebytes</a>
+                    <div class="description">– Protects against malware with this premium tool.</div>
+                    <span class="status-indicator loading" data-url="https://www.malwarebytes.com/">Loading...</span>
+                </li>        
             </ul>
+            
         </section>
 
         <section class="section" id="movies-series">
             <h2>Movies and Series</h2>
+            <table id="movies-series-table">
+                <thead>
+                    <tr>
+                        <th>Link</th>
+                        <th>Status</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-url="https://moviesjoy.is/">
+                        <td><a href="#" id="star">MoviesJoy</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Movies</td>
+                    </tr>
+                    <tr data-url="https://www1.fmovies.top/">
+                        <td><a href="#">FMovies</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Movies</td>
+                    </tr>
+                    <tr data-url="https://www.braflix.ru/">
+                        <td><a href="#">Braflix</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Movies</td>
+                    </tr>
+                    <tr data-url="https://www.wcostream.tv/">
+                        <td><a href="#">WCO Stream</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Series</td>
+                    </tr>
+                    <tr data-url="https://pseudo-flix.pro/">
+                        <td><a href="#" id="star">PseudoFlix</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Series</td>
+                    </tr>
+                    <tr data-url="https://watch.lonelil.ru/">
+                        <td><a href="#" id="star">Lonelil</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Series</td>
+                    </tr>
+                    <tr data-url="https://www.wcostream.tv">
+                        <td><a href="#">WCO Stream</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Anime</td>
+                    </tr>
+                    <tr data-url="https://9animes.ph/">
+                        <td><a href="#">9Animes</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Anime</td>
+                    </tr>
+                    <tr data-url="https://ww5.gogoanime2.org/">
+                        <td><a href="#">GogoAnime</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Anime</td>
+                    </tr>
+                    <tr data-url="https://www.aniwave.club/">
+                        <td><a href="#">AniWave</a></td>
+                        <td><span class="status-indicator loading">Loading...</span></td>
+                        <td>Anime</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- <section class="section" id="movies-series">
+            <h2>Movies and Series</h2>
             <h3>Movies</h3>
+            <p>Various platforms for streaming movies and series online.</p>
             <ul>
-                <li><a href="https://moviesjoy.is/" target="_blank">MoviesJoy</a> – Stream the latest movies. <span class="status-indicator loading" data-url="https://moviesjoy.is/">Loading...</span></li>
-                <li><a href="https://www1.fmovies.top/" target="_blank">FMovies</a> – Another great movie streaming platform. <span class="status-indicator loading" data-url="https://www1.fmovies.top/">Loading...</span></li>
-                <li><a href="https://www.braflix.ru/" target="_blank">Braflix</a> – Brazilian movie streaming site. <span class="status-indicator loading" data-url="https://www.braflix.ru/">Loading...</span></li>
+                <li>
+                    <a href="https://moviesjoy.is/" target="_blank">MoviesJoy</a>
+                    <div class="description">– Stream the latest movies.</div>
+                    <span class="status-indicator loading" data-url="https://moviesjoy.is/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://www1.fmovies.top/" target="_blank">FMovies</a>
+                    <div class="description">– Another great movie streaming platform.</div>
+                    <span class="status-indicator loading" data-url="https://www1.fmovies.top/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://www.braflix.ru/" target="_blank">Braflix</a>
+                    <div class="description">– Brazilian movie streaming site.</div>
+                    <span class="status-indicator loading" data-url="https://www.braflix.ru/">Loading...</span>
+                </li>
             </ul>
+            
             <h3>Series</h3>
             <ul>
-                <li><a href="https://www.wcostream.tv/" target="_blank">WCO Stream</a> – Platform for animated shows. <span class="status-indicator loading" data-url="https://www.wcostream.tv/">Loading...</span></li>
-                <li><a href="https://pseudo-flix.pro/" target="_blank">PseudoFlix</a> – Another streaming platform for TV shows. <span class="status-indicator loading" data-url="https://pseudo-flix.pro/">Loading...</span></li>
-                <li><a href="https://watch.lonelil.ru/" target="_blank">Lonelil</a> – Great for shows like Hamilton’s Pharmacopeia and Gaia Psychedelica. <span class="status-indicator loading" data-url="https://watch.lonelil.ru/">Loading...</span></li>
+                <li>
+                    <a href="https://www.wcostream.tv/" target="_blank">WCO Stream</a>
+                    <div class="description">– Platform for animated shows.</div>
+                    <span class="status-indicator loading" data-url="https://www.wcostream.tv/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://pseudo-flix.pro/" target="_blank">PseudoFlix</a>
+                    <div class="description">– Another streaming platform for TV shows.</div>
+                    <span class="status-indicator loading" data-url="https://pseudo-flix.pro/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://watch.lonelil.ru/" target="_blank">Lonelil</a>
+                    <div class="description">– Great for shows like Hamilton’s Pharmacopeia and Gaia Psychedelica.</div>
+                    <span class="status-indicator loading" data-url="https://watch.lonelil.ru/">Loading...</span>
+                </li>
             </ul>
+            
             <h3>Anime</h3>
             <ul>
-                <li><a href="https://www.wcostream.tv" target="_blank">WCO Stream</a> – Watch anime online. <span class="status-indicator loading" data-url="https://www.wcostream.tv">Loading...</span></li>
-                <li><a href="https://9animes.ph/" target="_blank">9Animes</a> – Another platform for streaming anime. <span class="status-indicator loading" data-url="https://9animes.ph/">Loading...</span></li>
-                <li><a href="https://ww5.gogoanime2.org/" target="_blank">GogoAnime</a> – Extensive anime catalog. <span class="status-indicator loading" data-url="https://ww5.gogoanime2.org/">Loading...</span></li>
-                <li><a href="https://www.aniwave.club/" target="_blank">AniWave</a> – Alternative anime streaming site. <span class="status-indicator loading" data-url="https://www.aniwave.club/">Loading...</span></li>
+                <li>
+                    <a href="https://www.wcostream.tv" target="_blank">WCO Stream</a>
+                    <div class="description">– Watch anime online.</div>
+                    <span class="status-indicator loading" data-url="https://www.wcostream.tv">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://9animes.ph/" target="_blank">9Animes</a>
+                    <div class="description">– Another platform for streaming anime.</div>
+                    <span class="status-indicator loading" data-url="https://9animes.ph/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://ww5.gogoanime2.org/" target="_blank">GogoAnime</a>
+                    <div class="description">– Extensive anime catalog.</div>
+                    <span class="status-indicator loading" data-url="https://ww5.gogoanime2.org/">Loading...</span>
+                </li>
+                <li>
+                    <a href="https://www.aniwave.club/" target="_blank">AniWave</a>
+                    <div class="description">– Alternative anime streaming site.</div>
+                    <span class="status-indicator loading" data-url="https://www.aniwave.club/">Loading...</span>
+                </li>
             </ul>
-        </section>
+        </section> -->
 
         <section class="section" id="matko-favorites">
-            <h2>Matko's Favorites</h2>
-            
+            <h2>Favorites</h2>
+            <p>Some favorite shows, movies, and tools frequently used</p>
+          
             <h3>Movies</h3>
-            <ul>
-                <li>
-                    <a href="https://moviesjoy.is/watch-movie/the-wolf-of-wall-street-19543.5349085" target="_blank" rel="noopener noreferrer">The Wolf of Wall Street</a>
-                    <span class="status-indicator" data-url="moviesjoy.is/watch-movie/the-wolf-of-wall-street-19543.5349085">Loading...</span>
-                </li>
-            </ul>
+            <div class="card-container">
+              <div class="card">
+                <a href="https://moviesjoy.is/watch-movie/the-wolf-of-wall-street-19543.5349085" target="_blank" rel="noopener noreferrer">
+                  <img src="/src/Cover_images/SubFav/twof.jfif" alt="The Wolf of Wall Street">
+                </a>
+                <h3>The Wolf of Wall Street</h3>
+                <span class="status-indicator" data-url="moviesjoy.is/watch-movie/the-wolf-of-wall-street-19543.5349085">Loading...</span>
+              </div>
+            </div>
             
             <h3>Shows</h3>
-            <ul>
-                <li>
-                    <a href="https://pseudo-flix.pro/browse/rick%20and%20morty" target="_blank" rel="noopener noreferrer">Rick and Morty</a>
-                    <span class="status-indicator" data-url="pseudo-flix.pro/browse/rick%20and%20morty">Loading...</span>
-                </li>
-                <li>
-                    <a href="https://watch.lonelil.ru/show/68362" target="_blank" rel="noopener noreferrer">Hamilton's Pharmacopeia</a>
-                    <span class="status-indicator" data-url="watch.lonelil.ru/show/68362">Loading...</span>
-                </li>
-                <li>
-                    <a href="https://watch.lonelil.ru/show/93254" target="_blank" rel="noopener noreferrer">Gaia Psychedelica</a>
-                    <span class="status-indicator" data-url="watch.lonelil.ru/show/93254">Loading...</span>
-                </li>
-                <li>
-                    <a href="https://watch.lonelil.ru/show/204304" target="_blank" rel="noopener noreferrer">How to Change Your Mind</a>
-                    <span class="status-indicator" data-url="watch.lonelil.ru/show/204304">Loading...</span>
-                </li>
-            </ul>
-            
-            <h3>Desktop Tools</h3>
-            <ul>
-                <li>
-                    <a href="https://th-ch.github.io/youtube-music/" target="_blank" rel="noopener noreferrer">YouTube Music</a>
-                    <span class="status-indicator" data-url="th-ch.github.io/youtube-music/">Loading...</span>
-                </li>
-            </ul>
-            
+            <div class="card-container">
+              <div class="card">
+                <a href="https://pseudo-flix.pro/browse/rick%20and%20morty" target="_blank" rel="noopener noreferrer">
+                  <img src="/src/Cover_images/SubFav/RM.webp" alt="Rick and Morty">
+                </a>
+                <h3>Rick and Morty</h3>
+                <span class="status-indicator" data-url="pseudo-flix.pro/browse/rick%20and%20morty">Loading...</span>
+              </div>
+              <div class="card">
+                <a href="https://watch.lonelil.ru/show/68362" target="_blank" rel="noopener noreferrer">
+                  <img src="/src/Cover_images/SubFav/ham.jpeg" alt="Hamilton's Pharmacopeia">
+                </a>
+                <h3>Hamilton's Pharmacopeia</h3>
+                <span class="status-indicator" data-url="watch.lonelil.ru/show/68362">Loading...</span>
+              </div>
+              <div class="card">
+                <a href="https://watch.lonelil.ru/show/93254" target="_blank" rel="noopener noreferrer">
+                  <img src="/src/Cover_images/SubFav/GAIA.jpg" alt="Gaia Psychedelica">
+                </a>
+                <h3>Gaia Psychedelica</h3>
+                <span class="status-indicator" data-url="watch.lonelil.ru/show/93254">Loading...</span>
+              </div>
+              <div class="card">
+                <a href="https://watch.lonelil.ru/show/204304" target="_blank" rel="noopener noreferrer">
+                  <img src="/src/Cover_images/SubFav/hcnfx.jpeg" alt="How to Change Your Mind">
+                </a>
+                <h3>How to Change Your Mind</h3>
+                <span class="status-indicator" data-url="watch.lonelil.ru/show/204304">Loading...</span>
+              </div>
+            </div>         
+            <!-- 
             <h3>Music</h3>
-            <ul>
-                <li>
-                    <a href="https://ytmp.itsvg.in/" target="_blank" rel="noopener noreferrer">YTMP</a>
-                    <span class="status-indicator" data-url="ytmp.itsvg.in/">Loading...</span>
-                </li>
-                <li>
-                    <a href="https://th-ch.github.io/youtube-music/" target="_blank" rel="noopener noreferrer">YouTube Music Alternative</a>
-                    <span class="status-indicator" data-url="th-ch.github.io/youtube-music/">Loading...</span>
-                </li>
-            </ul>
+            <p>
+                <a href="https://ytmp.itsvg.in/" target="_blank" rel="noopener noreferrer">YTMP</a>
+                <span class="status-indicator" data-url="ytmp.itsvg.in/">Loading...</span>
+                <a href="https://th-ch.github.io/youtube-music/" target="_blank" rel="noopener noreferrer">YouTube Music Alternative</a>
+                <span class="status-indicator" data-url="th-ch.github.io/youtube-music/">Loading...</span>
+            </p> 
+            -->
+
         </section>
 
-        <footer>
-            <div>
-                <p>&copy; 2024 DigitalFreedom. All rights reserved.</p>
-                <a href="/Html/main.html">Back To MAin</a>
-            </div>
-        </footer>
-    </div>
+    <footer class="">
+        <div>
+            <p>&copy; 2024 DigitalFreedom. All rights reserved.</p>
+            <!-- <a href="/Html/testWithoutCSS.html">Without CSS</a> -->
+        </div>
+    </footer>
 
+    <!-- Custom JavaScript -->
+    <script src="/JS/ping.js"></script>
+    <script src="/JS/background.js"></script>
+    <script src="/JS/jquery.js"></script>
+
+    <script>
+        // Initialize pings for status checking
+        document.addEventListener('DOMContentLoaded', function() {
+            var statusIndicators = document.querySelectorAll('.status-indicator');
     
-
-        <!-- Custom JavaScript -->
-        <script src="/JS/ping.js"></script>
-        <script src="/JS/background.js"></script>
-        <script src="/JS/jquery.js"></script>
-
-        <script>
-            // Initialize pings for status checking
-            document.addEventListener('DOMContentLoaded', function() {
-                var statusIndicators = document.querySelectorAll('.status-indicator');
-        
-                statusIndicators.forEach(function(indicator) {
-                    var url = indicator.getAttribute('data-url');
-                    pingURL(url, function(isActive) {
-                        indicator.textContent = isActive ? 'Online' : 'Offline';
-                        indicator.style.color = isActive ? '#39FF14' : '#FF073A'; // Neon green for online, neon red for offline
-                    });
+            statusIndicators.forEach(function(indicator) {
+                var url = indicator.getAttribute('data-url');
+                pingURL(url, function(isActive) {
+                    indicator.textContent = isActive ? 'Online' : 'Offline';
+                    indicator.style.color = isActive ? '#39FF14' : '#FF073A'; // Neon green for online, neon red for offline
                 });
             });
-        </script>
+        });
+
+
+    </script>
         
 </body>
 </html>
