@@ -3,7 +3,6 @@
     background: url('/src/Cover_images/star-pixel.gif') no-repeat left center; /* Set the background image */
     background-size: 15px 15px; /* Small size for the pixel image */
     padding-left: 20px; /* Adjust padding to fit the image */
-    color: #fb9039; /* Description text color */
     font-size: 0.9em; /* Font size for the description */
     margin-top: 4px; /* Margin to add space between the link and description */
     font-weight: normal; /* Normal font weight */

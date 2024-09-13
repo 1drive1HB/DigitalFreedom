@@ -8,7 +8,7 @@
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    background: rgb(74,56,35);
+    background: rgb(20, 15, 10);
     background: linear-gradient(285deg, rgba(74,56,35,1) 36%, rgba(221,128,36,1) 52%, rgba(25,23,21,1) 69%, rgba(129,100,72,1) 86%);
     /* color: #fb9039; */
     font-size: 1rem;
@@ -36,7 +36,7 @@
 
 .main-title h1 {
     margin: 0;
-    color: white;
+    color: rgba(255, 255, 255, 0.911);
     font-size: 2.5rem;
     font-weight: 700;
 }
@@ -63,7 +63,7 @@
 }
 
 .section h2, .section h3 {
-    color: #faa35c;
+    /* color: #faa35c; */
     text-align: center;
 }
 
