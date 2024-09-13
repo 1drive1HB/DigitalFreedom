@@ -92,9 +92,19 @@
     font-weight: bold; /* Font weight */
 }
 
-#movies-series-table td a:hover {
-    color: #ff9039;
+#movies-series-table td a#star:hover {
+    color: #8b0047; /* Darker, more vibrant shade for hover */
     text-decoration: underline;
+    letter-spacing: 0.5px; /* Slightly increase letter spacing on hover */
+    background-size: 18px 18px; /* Slightly enlarge the star on hover */
+    transition: color 0.3s ease, letter-spacing 0.3s ease, background-size 0.3s ease;
+}
+
+#movies-series-table td a:hover {
+    color: #8b0047; /* Darker, more vibrant shade for hover */
+    text-decoration: underline;
+    letter-spacing: 0.5px; /* Slightly increase letter spacing on hover */
+    transition: color 0.3s ease, letter-spacing 0.3s ease;
 }
 
 #movies-series-table td .status-indicator {

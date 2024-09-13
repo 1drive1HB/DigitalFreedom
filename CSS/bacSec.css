@@ -19,6 +19,7 @@
     border-radius: 8px;
     color: #fb9039; /* Adjust text color for contrast */
     overflow: hidden; /* Ensure content does not overflow */
+    opacity: 0.95;
 }
 
 /* Overlay for the background image with transparency */
@@ -33,7 +34,7 @@
     background-size: cover; /* Ensure the image covers the entire section */
     background-position: center; /* Center the background image */
     /*opacity: 0.45; /* Adjust opacity for transparency */
-    opacity: 0.90;
+    opacity: 0.75;
     z-index: -1; /* Place the image behind the content */
 }
 
@@ -44,6 +45,8 @@
     border-radius: 8px;
     color: #fb9039; /* Adjust text color for contrast */
     overflow: hidden; /* Ensure content does not overflow */
+    opacity: 0.95;
+
 }
 
 /* Overlay for the background image with transparency */
@@ -70,6 +73,8 @@
     border-radius: 8px;
     color: #fb9039; /* Adjust text color for contrast */
     overflow: hidden; /* Ensure content does not overflow */
+    opacity: 0.95;
+
 }
 
 /* Overlay for the background image with transparency */
@@ -96,6 +101,8 @@
     border-radius: 8px;
     color: #fb9039; /* Adjust text color for contrast */
     overflow: hidden; /* Ensure content does not overflow */
+    opacity: 0.95;
+
 }
 
 /* Overlay for the background image with transparency */
@@ -122,6 +129,8 @@
     border-radius: 8px;
     color: #fb9039; /* Adjust text color for contrast */
     overflow: hidden; /* Ensure content does not overflow */
+    opacity: 0.95;
+
 }
 
 /* Overlay for the background image with transparency */

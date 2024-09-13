@@ -8,9 +8,9 @@
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    background: rgb(5,22,34);
-    background: linear-gradient(285deg, rgba(5,22,34,1) 25%, rgba(27,160,152,1) 66%, rgba(222,185,146,1) 88%);
-    color: #fb9039;
+    background: rgb(74,56,35);
+    background: linear-gradient(285deg, rgba(74,56,35,1) 36%, rgba(221,128,36,1) 52%, rgba(25,23,21,1) 69%, rgba(129,100,72,1) 86%);
+    /* color: #fb9039; */
     font-size: 1rem;
 }
 
@@ -27,7 +27,7 @@
 .main-title {
     text-align: center;
     padding: 1.5rem;
-    background-color: rgba(100, 108, 121, 0.55);
+    background-color: rgba(121, 161, 96, 0.55);
     margin: 1.5rem auto;
     border-radius: 8px;
     width: 100%;
@@ -43,7 +43,7 @@
 
 .main-title p {
     margin: 1rem 0;
-    color: #fb9039;
+    color: #79451b;
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -63,7 +63,7 @@
 }
 
 .section h2, .section h3 {
-    color: #fb9039;
+    color: #faa35c;
     text-align: center;
 }
 
@@ -129,8 +129,10 @@ li .description {
 }
 
 li a:hover {
-    color: #ff9039;
+    color: #8b0047; /* Darker, more vibrant shade for hover */
     text-decoration: underline;
+    letter-spacing: 0.5px; /* Slightly increase letter spacing on hover */
+    transition: color 0.3s ease, letter-spacing 0.3s ease;
 }
 
 /* ====================================
